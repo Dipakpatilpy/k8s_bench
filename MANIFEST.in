@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include k8s_bench *.css
+recursive-include k8s_bench *.csv
+recursive-include k8s_bench *.html
+recursive-include k8s_bench *.ico
+recursive-include k8s_bench *.js
+recursive-include k8s_bench *.json
+recursive-include k8s_bench *.md
+recursive-include k8s_bench *.png
+recursive-include k8s_bench *.py
+recursive-include k8s_bench *.svg
+recursive-include k8s_bench *.txt
+recursive-exclude k8s_bench *.pyc
