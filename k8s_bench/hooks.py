@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "k8s_bench"
-app_title = "K8S Bench"
+app_title = "K8s Bench"
 app_publisher = "Castlecraft Ecommerce Pvt Ltd"
 app_description = "Bench Manager Kubernetes API"
 app_icon = "octicon octicon-file-directory"
@@ -33,7 +33,11 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "Bench Settings" : "public/js/bench_settings.js",
+    "Site" : "public/js/site.js",
+    "App" : "public/js/app.js",
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -46,7 +50,7 @@ app_license = "MIT"
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# 	"Role": "home_page"
 # }
 
 # Generators
@@ -105,7 +109,7 @@ app_license = "MIT"
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-#	}
+# 	}
 # }
 
 # Scheduled Tasks
@@ -183,4 +187,3 @@ user_data_fields = [
 # auth_hooks = [
 # 	"k8s_bench.auth.validate"
 # ]
-

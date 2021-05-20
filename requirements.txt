@@ -1,1 +1,2 @@
 frappe
+kubernetes==17.17.0

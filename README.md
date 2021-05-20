@@ -1,4 +1,4 @@
-## K8S Bench
+## K8s Bench
 
 Bench Manager Kubernetes API
 
