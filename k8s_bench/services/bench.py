@@ -13,7 +13,7 @@ from k8s_bench.utils.setup import setup_bench as _setup_bench
 
 
 @frappe.whitelist()
-def create_site(site_name, key, apps=None):
+def create_site(site_name, key, first_name, last_name, password, email,  apps=None):
     mysql_password = frappe.get_conf().get("root_password")
     admin_password = frappe.get_conf().get("admin_password")
 
