@@ -23,7 +23,8 @@ def create_site(site_name, key, apps=None):
             site_name=site_name,
             admin_password=admin_password,
             mysql_password=mysql_password,
-        )
+        ),
+        f"bench --site {site_name} add-system-manager --first-name {first_name} --last-name {last_name} --password {password} {email}"
     ]
 
     list_apps = ["frappe"]
